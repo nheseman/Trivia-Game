@@ -1,0 +1,86 @@
+
+
+
+
+
+body {
+  background-image: url("../images/MCUbackground.jpg");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: gold;
+    opacity: .7;
+    text-shadow: 4px;
+}
+h1 {
+  text-align: center;
+  color: red;
+  font-weight: bolder;
+  padding: 20px;
+  font-size: 45px;
+  border-bottom: 4px solid blue;
+  border-top: 4px solid blue;
+  opacity: .95;
+  }
+
+p {
+  margin: 10px;
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}
+
+h2, h4 {
+  margin: 30px;
+  font-weight: bold;
+  color: black;
+}
+.answerchoice {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 40%;
+  color: black;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: white;
+  cursor: pointer;
+
+}
+.container {
+  margin: 10px auto;
+  background-color: rgba(165, 177, 199, 0.6);
+  border: 1px solid blue;
+  height: 500px;
+  width: 60%;
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  bottom: -150px;
+}
+
+img {
+    max-height: 250px;
+    width: auto;
+  }
+  
+  #answers {
+    text-align: center;
+     
+
+  }
+  
+  #questions {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #reset {
+    visibility: visible;
+  }
+#timeleft{
+    color: darkblue;
+  } 
