@@ -108,14 +108,12 @@ $(document).ready(function () {
         }
     }
 
-
     //timer 
     function decrement() {
         timer --;
         $("#timeleft").html("<h3>Time remaining: " + timer + "</h3>");
         
-    
-        
+            
         if (timer === 0) {
             unanswerCount++;
             stop();
