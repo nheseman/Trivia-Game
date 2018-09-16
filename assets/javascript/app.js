@@ -117,7 +117,7 @@ $(document).ready(function () {
         if (timer === 0) {
             unanswerCount++;
             stop();
-            $("#answers").html("<p>Time's up. The correct answer is: " + pick.choice[pick.answer] + "</p>");
+            $("#answers").html("<p>Time's up. The answer is: " + pick.choice[pick.answer] + "</p>");
             hidepicture();
         }	
     }
