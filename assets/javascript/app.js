@@ -144,7 +144,7 @@ $(document).ready(function () {
     
     
     
-    //function for answers
+
     $(".answerchoice").on("click", function () {
         userGuess = parseInt($(this).attr("data-guessvalue"));
            
@@ -159,7 +159,7 @@ $(document).ready(function () {
             stop();
             wrongCount++;
             userGuess="";
-            $("#answers").html("<p>Wrong! The correct answer is: " + pick.choice[pick.answer] + "</p>");
+            $("#answers").html("<p>Incorrect, the answer is: " + pick.choice[pick.answer] + "</p>");
             hidepicture();
         }
     })
